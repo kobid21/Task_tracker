@@ -9,7 +9,7 @@ export default function Login() {
   const handleLogin = (e) => {
     e.preventDefault();
     // Mock credentials check
-    if (username === 'admin' && password === 'password') {
+    if (username === 'k' && password === 'k') {
       localStorage.setItem('authenticated', true);
       router.push('/dashboard');
     } else {
@@ -43,7 +43,7 @@ export default function Login() {
           <div style={{ marginBottom: '15px' }}>
             <input
               type="text"
-              placeholder="Username"
+              placeholder="Username is 'k'"
               onChange={(e) => setUsername(e.target.value)}
               style={{
                 width: '100%',
@@ -58,7 +58,7 @@ export default function Login() {
           <div style={{ marginBottom: '25px' }}>
             <input
               type="password"
-              placeholder="Password"
+              placeholder="Password is 'k'"
               onChange={(e) => setPassword(e.target.value)}
               style={{
                 width: '100%',
