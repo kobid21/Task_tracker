@@ -1,3 +1,7 @@
+wesite preview
+
+![alt text](https://github.com/kobid21/Task_tracker/blob/main/Screenshot%202024-11-08%20022447.png?raw=true)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
